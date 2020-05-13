@@ -1,0 +1,13 @@
+*.project
+*.iml
+*.settings
+*.class
+*.classpath
+*.classes
+*/target/*
+**.tern-project
+*.DS_Store
+.idea/
+out/
+*.idea
+*target*
