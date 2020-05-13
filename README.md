@@ -2,13 +2,13 @@
 
 #### Description
 自己的算法练习题，主要是leetcode上的算法题目，但是也包含了其他来源的题目。以题目的类型进行分类，每个题目中要包含题目的来源。
-
+算法菜鸟，欢迎拍砖。
 #### Software Architecture
 Software architecture description
 
 #### Installation
 
-1.  xxxx
+1.  java 1.8
 2.  xxxx
 3.  xxxx
 
