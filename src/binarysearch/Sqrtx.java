@@ -29,6 +29,9 @@ public class Sqrtx {
         System.out.println(mySqrt(2147395599));
     }
 
+    /**
+     * 二分法找左侧边界的变形
+     */
     public static int mySqrt(int x) {
         int l = 0;
         int r = x;
