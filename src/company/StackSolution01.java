@@ -1,3 +1,5 @@
+package company;
+
 import java.util.ArrayList;
 
 public class StackSolution01<E> {

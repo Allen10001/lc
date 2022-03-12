@@ -1,3 +1,5 @@
+package company;
+
 public class Solution03 {
     public static void main(String[] args){
         System.out.println(Integer.valueOf('a')); // 97
