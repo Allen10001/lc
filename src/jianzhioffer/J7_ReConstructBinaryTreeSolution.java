@@ -21,7 +21,7 @@ import java.util.Stack;
 数据范围：n \le 2000n≤2000，节点的值 -10000 \le val \le 10000−10000≤val≤10000
 要求：空间复杂度 O(n)O(n)，时间复杂度 O(n)O(n)
  */
-public class ReConstructBinaryTreeSolution {
+public class J7_ReConstructBinaryTreeSolution {
 
     // Definition for binary tree
     class TreeNode {

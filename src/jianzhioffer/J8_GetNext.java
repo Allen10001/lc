@@ -8,7 +8,7 @@ package jianzhioffer;
  * @link https://www.nowcoder.com/practice/9023a0c988684a53960365b889ceaf5e?tpId=265&tqId=39212&rp=1&ru=/exam/oj/ta&qru=/exam/oj/ta&sourceUrl=%2Fexam%2Foj%2Fta%3Fpage%3D1%26pageSize%3D50%26search%3D%26tpId%3D13%26type%3D265&difficulty=undefined&judgeStatus=undefined&tags=&title=
  * @date 2022/3/19 8:32 PM
  */
-public class GetNext {
+public class J8_GetNext {
 
     public class TreeLinkNode {
 

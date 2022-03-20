@@ -11,7 +11,7 @@ import java.util.Stack;
  * @link https://www.nowcoder.com/practice/54275ddae22f475981afa2244dd448c6?tpId=265&tqId=39213&rp=1&ru=/exam/oj/ta&qru=/exam/oj/ta&sourceUrl=%2Fexam%2Foj%2Fta%3Fpage%3D1%26pageSize%3D50%26search%3D%26tpId%3D13%26type%3D265&difficulty=undefined&judgeStatus=undefined&tags=&title=
  * @date 2022/3/19 8:52 PM
  */
-public class MakeQueueByTwoStack {
+public class J9_MakeQueueByTwoStack {
 
     Stack<Integer> stack1 = new Stack<Integer>();
     Stack<Integer> stack2 = new Stack<Integer>();

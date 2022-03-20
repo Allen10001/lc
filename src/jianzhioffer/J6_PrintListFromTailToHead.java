@@ -14,7 +14,7 @@ import java.util.ArrayList;
  * 1. 递归解法
  * 2. 栈解法
  */
-public class PrintListFromTailToHead {
+public class J6_PrintListFromTailToHead {
 
     public class ListNode {
         int val;

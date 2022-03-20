@@ -12,12 +12,12 @@ import java.util.ArrayList;
  * <p>
  * 方法一：递归 题目分析，斐波那契数列公式为：f[n] = f[n-1] + f[n-2], 初始值f[0]=0, f[1]=1，目标求f[n] 看到公式很亲切，代码秒秒钟写完。
  * <p>
- * class Solution { public: int Fibonacci(int n) { if (n<=2) return 1; return Fibonacci(n-1) +
- * Fibonacci(n-2); } }; 优点，代码简单好写，缺点：慢，会超时 时间复杂度：O(2^n) 空间复杂度：递归栈的空间
+ * class Solution { public: int J10_Fibonacci(int n) { if (n<=2) return 1; return J10_Fibonacci(n-1) +
+ * J10_Fibonacci(n-2); } }; 优点，代码简单好写，缺点：慢，会超时 时间复杂度：O(2^n) 空间复杂度：递归栈的空间
  *
  * 方法二：dp，时间复杂度：O（n） 空间复杂度：O（n）
  */
-public class Fibonacci {
+public class J10_Fibonacci {
 
     /**
      * 实现方法二，该解最优

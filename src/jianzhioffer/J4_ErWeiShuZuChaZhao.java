@@ -27,7 +27,7 @@ package jianzhioffer;
  * @link https://www.nowcoder.com/practice/abc3fe2ce8e146608e868a70efebf62e?tpId=265&tqId=39208&rp=1&ru=/exam/oj/ta&qru=/exam/oj/ta&sourceUrl=%2Fexam%2Foj%2Fta%3Fpage%3D1%26pageSize%3D50%26search%3D%26tpId%3D13%26type%3D265&difficulty=undefined&judgeStatus=undefined&tags=&title=
  * @date 2022/3/19 6:42 PM
  */
-public class ErWeiShuZuChaZhao {
+public class J4_ErWeiShuZuChaZhao {
 
     public boolean Find(int target, int [][] array) {
         if(array == null || array.length ==0){
