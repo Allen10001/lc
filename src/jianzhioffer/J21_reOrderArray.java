@@ -10,5 +10,58 @@ package jianzhioffer;
  */
 public class J21_reOrderArray {
 
+    /**
+     * 方法1：头尾双指针，一次遍历，头处理奇数，尾处理偶数；
+     * @param array
+     * @return
+     */
+    public int[] reOrderArray01 (int[] array) {
+        // write code here
+        //双指针，头尾指针
+        int[] nums = new int[array.length];
+        int head = 0;
+        int tail = array.length-1;
+        int index_head = head;
+        int index_tail = tail;
+        while(head < array.length && tail >= 0){
+            if(array[head] % 2 == 1){
+                //奇数，放前面
+                nums[index_head] = array[head];
+                index_head++;
+            }
+            head++;
+            if(array[tail] % 2 == 0){
+                //从后到前，如果为偶数，则从后开始填
+                nums[index_tail] = array[tail];
+                index_tail--;
+            }
+            tail--;
+        }
+        return nums;
+    }
+
+    /**
+     * 2. 冒泡排序的思想
+     * @param array
+     * @return
+     */
+    public int[] reOrderArray02 (int[] array) {
+        // write code here
+        int i = 0;
+        for (int j=0; j < array.length; ++j) {
+            // 遇到奇数时
+            if (array[j] % 2 == 1) {
+                // 先将 array[j] 赋值
+                int tmp = array[j];
+                // 将 【i, j-1】数组后移动
+                for (int k=j-1; k>=i; --k) {
+                    array[k+1] = array[k];
+                }
+                // 将array[j]插入到 i++ 的位置
+                array[i++] = tmp;
+            }
+        }
+        return array;
+    }
 
 }
