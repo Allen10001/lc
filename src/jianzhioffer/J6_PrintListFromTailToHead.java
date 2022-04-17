@@ -23,6 +23,7 @@ public class J6_PrintListFromTailToHead {
         }
     }
 
+    // 递归法翻转链表
     ArrayList<Integer> arrayList = new ArrayList<Integer>();
     public ArrayList<Integer> printListFromTailToHead(ListNode listNode) {
         if (listNode != null) {

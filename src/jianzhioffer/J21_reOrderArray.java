@@ -47,18 +47,17 @@ public class J21_reOrderArray {
      */
     public int[] reOrderArray02 (int[] array) {
         // write code here
-        int i = 0;
-        for (int j=0; j < array.length; ++j) {
-            // 遇到奇数时
-            if (array[j] % 2 == 1) {
-                // 先将 array[j] 赋值
-                int tmp = array[j];
-                // 将 【i, j-1】数组后移动
-                for (int k=j-1; k>=i; --k) {
-                    array[k+1] = array[k];
+        // write code here
+        int i=0;
+        for(int j=0; j< array.length; j++){
+            // 为奇数
+            if (array[j]%2==1) {
+                int temp = array[j];
+                for(int k=j;k>i;k--){
+                    array[k]=array[k-1];
                 }
-                // 将array[j]插入到 i++ 的位置
-                array[i++] = tmp;
+                array[i] = temp;
+                i++; // 先移动中间的偶数，再加1, i 始终指向移动后数组中的第一个偶数
             }
         }
         return array;

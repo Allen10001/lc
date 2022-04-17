@@ -9,11 +9,10 @@ import java.util.Set;
 
 /**
  * 在二叉树中找到两个节点的最近公共祖先
- *
+ * 需要 和 二叉树搜索树的最近公共祖先 区别开
  * @author hubo88
  * @description
  * @link https://www.nowcoder.com/practice/e0cc33a83afe4530bcec46eba3325116?tpId=265&rp=1&ru=%2Fexam%2Foj%2Fta&qru=%2Fexam%2Foj%2Fta&sourceUrl=%2Fexam%2Foj%2Fta%3FtpId%3D13&difficulty=&judgeStatus=&tags=&title=&gioEnter=menu
- * @date 2022/4/10 2:41 PM
  */
 public class J86_lowestCommonAncestor {
 

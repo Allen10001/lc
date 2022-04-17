@@ -33,9 +33,11 @@ public class J59_maxInWindows {
             begin = i - size + 1;
             if (q.isEmpty()) {
                 q.add(i);
+            // 通过这样保证 队列中的 index 都是生效的（在当前的滑动窗口中）
             } else if (begin > q.peekFirst()) {
                 q.pollFirst();
             }
+            // 通过这样 保证 队首元素 总是最大值
             while ((!q.isEmpty()) && num[q.peekLast()] <= num[i]) {
                 q.pollLast();
             }
