@@ -49,7 +49,7 @@ public class bian_ji_lv_li {
             D[i][0] = i;
         }
 
-        // word2 为空时，编辑距离是 word1 的长度
+        // word1 为空时，编辑距离是 word2 的长度
         for(int j=1;j<=n;j++){
             D[0][j] = j;
         }
